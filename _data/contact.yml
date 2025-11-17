@@ -3,16 +3,24 @@
 - type: github
   icon: "fab fa-github"
 
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
+- type: htb
+  icon: "fa-solid fa-cube"
+  url: "https://app.hackthebox.com/profile/2111110"
 
-- type: email
-  icon: "fas fa-envelope"
-  noblank: true # open link in current tab
+- type: thm
+  icon: "fa-regular fa-cloud"
+  url: "https://tryhackme.com/p/ldb33"
 
-- type: rss
-  icon: "fas fa-rss"
-  noblank: true
+#- type: twitter
+#  icon: "fa-brands fa-x-twitter"
+
+#- type: email
+#  icon: "fas fa-envelope"
+#  noblank: true # open link in current tab
+
+#- type: rss
+#  icon: "fas fa-rss"
+#  noblank: true
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon
