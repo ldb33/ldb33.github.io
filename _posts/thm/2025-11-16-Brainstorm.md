@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Brainstorm
+title: "THM: Brainstorm"
 date: 2025-11-16
 categories: tryhackme
 tags: binary-exploitation buffer-overflow windows
