@@ -19,7 +19,7 @@ In this lab we will construct a basic stack buffer overflow exploit to gain cont
 ## Enumeration
 ---
 
-We start with a basic `nmap` scan:
+We start with a `nmap` scan:
 ```terminal
 kali㉿kali $ nmap -T4 -Pn -sV -sC -p- 10.10.205.219 -oA scans/full_tcp
 Starting Nmap 7.95 ( https://nmap.org ) at 2025-11-16 14:53 CET
@@ -360,7 +360,7 @@ _Using `ERC` to compare memory regions in `x64dbg`_
 
 ### Finding a module
 ---
-What we need next to perform this simple stack overflow is a module without memory protections. For example, protections like `NX` makes it so that the program cannot execute code on the stack, and `ASLR` randomizes the address space every time the program is run. 
+What we need next to perform this primitive stack overflow is a module without memory protections. For example, protections like `NX` makes it so that the program cannot execute code on the stack, and `ASLR` randomizes the address space every time the program is run. 
 Both would render the attack we are trying ineffective.
 
 To find what modules are available, we will use `ERC`.
