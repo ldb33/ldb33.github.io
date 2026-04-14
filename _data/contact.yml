@@ -5,7 +5,7 @@
 
 - type: htb
   icon: "fa-solid fa-cube"
-  url: "https://app.hackthebox.com/profile/2111110"
+  url: "https://app.hackthebox.com/users/2111110"
 
 - type: thm
   icon: "fa-regular fa-cloud"
