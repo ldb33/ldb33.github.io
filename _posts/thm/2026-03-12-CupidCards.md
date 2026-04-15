@@ -100,7 +100,7 @@ Here we see the flask app source code `app.py`, as well as an interesting file `
 /usr/sbin/iptables -A OUTPUT -p icmp --icmp-type echo-reply -j ACCEPT
 ```
 
-This explains why we couldn't get a reverse shell. All incoming `tcp` traffic is dropped, except for traffic on ports **1337** (web app) and **22** (ssh).
+This explains why we couldn't get a tcp reverse shell. All `tcp` traffic is dropped, except for traffic on ports **1337** (web app) and **22** (ssh).
 
 Here is the relevant part of the generate endpoint in `app.py`:
 
